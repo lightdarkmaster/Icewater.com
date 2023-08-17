@@ -1,0 +1,46 @@
+body {
+    font-family: 'Alatsi', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-link:hover {
+    color: blue;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    text-shadow: 3px 3px 2px blue;
+}
+
+canvas {
+    width: 100%;
+}
+
+.btn-primary {
+    position: relative;
+    top: 460px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
